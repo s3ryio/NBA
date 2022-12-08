@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="nba_logo.ico">
+    <title>NBA</title>
+      
+      <style>
+
+@font-face {
+   font-family:speed;
+   src: url(fuentes/speedwagonsuperital.ttf);
+}
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+video { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  position: fixed;
+}
+
+h1 {
+  padding-top: 125px;
+  padding-bottom: 20px;
+  font-family:speed;
+  text-align: center;
+  font-size: 2.6rem;
+  width: 100%;
+  letter-spacing: .5rem;
+}
+a {
+  position: relative;
+  top: 100px;
+}
+nav a {
+   text-decoration: none;
+   padding: 1rem;
+   color: inherit;
+   font-size: 5.2rem;
+   letter-spacing: .5rem;
+   font-family:speed;
+}
+
+#lema {
+   min-height: 100px;
+   text-align: center;
+   position: relative;
+   top:200px;
+}
+
+h2 { 
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  text-align: center;
+  mix-blend-mode: overlay;
+  color: #fff;
+}
+
+img {
+  padding: 90px;
+  background-color: rgba(0, 128, 0, 0);
+  transition: transform .5s;
+  width: 240px;
+  height: 533px;
+  margin: 0 auto;
+}
+
+img:hover {
+  transform: scale(1.35);
+}
+</style>
+
+ <body>
+   <video autoplay muted loop>
+       <source src="FONDO.mp4" type="video/mp4">
+   </video>
+   <header>
+      <a href="NBA/INICIO.html"><img src="nba_logo_mini.png" alt="nba_logo_mini.png"></a>
+   </header>
+ </body>
+</html>
